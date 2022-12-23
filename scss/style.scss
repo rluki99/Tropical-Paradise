@@ -130,6 +130,14 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
+// BLACK BARS ON WHITE SECTION 
+
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+	background: $dark;
+}
+
 // HEADER
 
 .header {
